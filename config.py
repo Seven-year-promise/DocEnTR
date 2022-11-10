@@ -1,4 +1,11 @@
 import argparse
+from pathlib import Path
+
+DATASET_A_PATH = Path(r"/data/codescan/binarization/color_cut")
+DATASET_B_PATH = Path(r"/data/codescan/binarization/bw_cut")
+
+DATA_PATH = Path("./data/codescan/")
+
 
 class Configs():
     def __init__(self):
